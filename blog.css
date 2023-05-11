@@ -80,9 +80,17 @@
     color:#3B3A5D;
     font-size: clamp(16px, 1.1vw, 24px);
  }
- /* .contactForm{
-    margin-top: 40px;
- } */
+ .decCon{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.dec1, .dec2{
+    width: 100%;
+}
+.dec2 p{
+    width: 100%;
+}
 }
 
 @media only screen and (max-width: 350px){
