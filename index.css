@@ -69,7 +69,7 @@ body{
   
     position: fixed;
   
-    top: 90px;
+    top: 70px;
   
     left: 100%;
   
@@ -79,7 +79,7 @@ body{
   
     display: block;
   
-    background-color: #fff;
+    background-color: #F2F2F2;
   
     color: #fff;
   
@@ -93,6 +93,7 @@ body{
   
   }
   
+  
   .mobile-nav.is-active {
   
     left: 28%;
@@ -104,9 +105,14 @@ body{
     align-items: center;
   
     transition: 0.4s;
+
+    background-color: #3b3a5ed0;
+    
   
   }
-  
+  .mobile-nav.is-active ol li a{
+    color: #fff;
+  }
   .mobile-nav a {
   
     text-decoration: none;
@@ -119,13 +125,13 @@ body{
   
     text-align: center;
   
-    padding: 18px 16px;
+    padding: 24px 16px;
   
     margin: 0 auto;
   
     width: 100%;
   
-    font-size: 1.5rem;
+    font-size: 1rem;
 
     color: #fff;
   
@@ -133,7 +139,7 @@ body{
   
   .mobile-nav li:hover {
   
-    background-color: #1e1e1e;
+    /* background-color: #1e1e1e; */
   
   }
 
