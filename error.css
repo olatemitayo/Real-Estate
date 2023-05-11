@@ -1,0 +1,16 @@
+.errorCon{
+    width: 100% !important;
+    text-align: center;
+}
+
+.errorCon p{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+@media only screen and (max-width: 940px){
+    .errorCon p{
+        width: 100% !important;
+    }
+}

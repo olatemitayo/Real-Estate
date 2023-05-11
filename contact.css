@@ -1,0 +1,112 @@
+.contactUs{
+    background-image: url(./Assets/Contact/contactHeroBg.png);
+    /* height: 170vh; */
+    
+}
+.contactUsCon{
+    display: flex;
+    justify-content: space-between;
+}
+.contactDetails, .contactForm{
+    inline-size: 48%;
+}
+
+.whiteAddy{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 5px;
+}
+.londonAddy, .laAddy{
+    width: 40%;
+    text-align: center;
+     background-color: #FCDBCE;
+    padding-inline: 8px;
+    padding-block: 8px 0;
+    height: 80px;
+}
+.londonWhite{
+   padding: 20px;
+}
+.LAwhite{
+    padding: 20px;
+}
+
+.contactForm{
+    padding-inline: clamp(5px, 3vw, 30px);
+    padding-block: clamp(12px, 3vw, 35px);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.mailnphone > div{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.mailCon img{
+    width: clamp(16px, 2vw, 25px);
+}
+h2{
+    color: #3B3A5D;
+    font-size: clamp(20px, 2vw, 30px);
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+.contactForm input, textarea{
+    width: 100%;
+    padding: 20px 10px;
+    border: 0;
+    background-color:  #F3F3F3;
+    ;
+}
+/* h4{
+    width: clamp(12px, 1vw, 16px);
+} */
+.contactBtn{
+    background-color: #3B3A5E;
+    border-radius: 5px;
+    padding-block: clamp(10px, 1vw, 14px);
+    padding-inline: clamp(24px, 1vw, 34px);
+    color:#fff ;
+    border: none;
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+.FAQmobile{
+    width: 60%;
+}
+
+@media only screen and (max-width: 920px){
+    .contactUsCon{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .contactDetails, .contactForm{
+        inline-size: 100%;
+    }
+    p{
+        width: 100% !important;
+    }
+    .mailnphone > div{
+        flex-direction: row;
+        /* justify-content: space-between; */
+        width: fit-content;
+        flex-wrap: wrap;
+    }
+    .londonAddy, .laAddy{
+         background-color: transparent;
+         padding: 0;
+         width: 100%;
+    }
+    .FAQmobile{
+        width: 100%;
+    }
+   
+    
+}
+@media only screen and (max-width: 585px){
+ .mailCon{
+        width: 100%;
+    }
+}

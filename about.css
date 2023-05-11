@@ -1,0 +1,155 @@
+.aboutNav{ 
+    height: 100vh;
+    background-image: url(./Assets/About/abtbg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding-top: clamp(25px, 4vw, 60px)
+}
+
+.heroSection h1{
+    font-size: clamp(30px, 2vw, 40px);
+}
+
+.vintro{
+    /* background-image: url(./Assets/About/vintroBg.png);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: left center; */
+}
+.vintroCon{
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+}
+.vintroCon div:first-child{
+    padding-inline: 0 !important;
+    padding-block: 0 !important;
+    height: 50rem;
+    width: 100%;
+}
+.vintroCon div:nth-child(2){
+    width: 100%;
+}
+.vintro img{
+    width: 100%;
+    /* height: 100%; */
+}
+
+/* FOCUS  */
+.focus{
+    padding-block: 0;
+}
+.focusHeader{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.focusImgCon{
+    display: flex;
+    justify-content: space-between;
+
+}
+.focusImgCon > div{
+    width: 30%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.focusImgCon h4{
+    color:#3B3A5D;
+    font-size: clamp(16px, 1.1vw, 24px);
+}
+.focusImgCon h2{
+    text-align: center;
+}
+.focusImgCon p{
+    width: 100% !important;
+}
+
+/* REIVENTING  */
+.reinvent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.reinvent > div{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.reinvent > div img{
+    width: 100%;
+}
+.marginReinvent{
+    margin-bottom: 30px;
+}
+
+/* PROPERTY  */
+.propertyImg > img{
+    width: 20px !important;
+}
+.agentProp{
+    width: 23%;
+}
+.agentProp > div > img{
+    width: 100%;
+}
+.agentCon{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 920px){
+    .focusImgCon{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .focusImgCon div{
+        width: 100%;
+        text-align: start;
+        padding-inline-end: 0 ;
+    }
+    .focusImgCon h2{
+        text-align: start;
+    }
+    .focusImgCon p{
+        width: 100% !important;
+    }
+
+    /* REINVENTING  */
+    .reinvent > div{
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .reinvent div p{
+        width: 100%;
+    }
+    .reinvent > div:last-child{
+        margin-top: 20px;
+    }
+
+    /* PROPERTY  */
+    .agentProp{
+        width: 100%;
+    }
+    .agentCon{
+        display: flex;
+        flex-direction: column;
+        gap: 3  0px;
+    }
+    .focus{
+        text-align: start;
+    }
+}

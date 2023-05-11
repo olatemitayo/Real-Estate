@@ -1,0 +1,23 @@
+.agent{
+    background-image: url(./Assets/Agent/agentHerobg.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 90vh;
+}
+.agentConGap{
+    gap: 30px;
+}
+
+@media only screen and (max-width: 1407px){
+    .agentConGap{
+        gap: 20px;
+    }
+}
+
+@media only screen and (max-width: 940px){
+    .agentConGap{
+        /* justify-content: space-between; */
+        gap: 10px;
+    }
+}
