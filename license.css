@@ -1,0 +1,14 @@
+.license p{
+    width: 60%;
+}
+.licenseSection{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media only screen and (max-width: 920px){
+    .license p{
+        width: 100%;
+    }
+}

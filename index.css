@@ -251,6 +251,7 @@ nav > div{
     font-size: clamp(12px 1vw, 16px);
     padding-right: 25px;
     cursor: pointer;
+    color: #3B3A5D;
 }
 .heroBtn img{
     margin-left: -25px;
@@ -709,7 +710,7 @@ footer{
 .logoFooter{
     display: flex;
     gap: 10px;
-    border-bottom: 1px solid #E4E4E4;
+    border-block: 1px solid #E4E4E4;
 }
 .upFooter{
     display: flex;
@@ -787,7 +788,7 @@ footer{
 }
 .rightFooter{
     padding-block: clamp(10px, 5vw, 50px);
-    padding-inline: clamp(10px, 5vw, 50px);
+    padding-inline-start: clamp(10px, 5vw, 50px);
     width: 44%;
 }
 .rightFooter img{
