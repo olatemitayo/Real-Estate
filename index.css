@@ -1031,7 +1031,13 @@ footer{
  /* FOOTER  */
  .logoFooter{
     display: block;
+    border-block: none;
  }
+ .upFooter{
+    
+    border-right: none;
+    
+}
  .logoFooter div:first-child{
     inline-size: 100%;
     padding-block: 0;
