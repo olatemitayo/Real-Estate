@@ -324,7 +324,7 @@ nav > div{
 }
 .videoImgBnS{
     width: clamp(290px,25vw,400px);
-    height: inherit;
+    height: 100%;
 }
 
 /* PROPERTIES  */
