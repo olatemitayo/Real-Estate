@@ -616,6 +616,9 @@ nav > div{
 .cusScroll div{
     inline-size: 20rem;
 }
+.prev-btn:hover, .next-btn:hover{
+    scale:1.2 !important;
+}
 
 
 /* customers paragraphy radius  */

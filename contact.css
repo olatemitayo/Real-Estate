@@ -86,7 +86,13 @@ h2{
     font-size: 14px;
     margin-top: 5px;
   }
-  
+
+  input:focus {
+    outline: none;
+  }
+  textarea:focus{
+    outline: none;
+  }
 
 @media only screen and (max-width: 920px){
     .contactUsCon{
